@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.bdy {
+    font-family: Arial, sans-serif;
+    background-color: #cf8989;
+    background-image:url(/interactive-calculator-1024x682.png);
+  
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+#ageForm{
+    display:inline-block;
+}
+.container {
+    position: static;
+     
+    background-color: #5be2e2;
+    padding: 90px 30px 72px 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+    margin-left: 22%;
+    margin-top: 7%;
+    margin-right: 10%;
+}
+ 
+  #html-spinner{
+    margin-left: 446px;
+  }
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    margin-bottom: 15px;
+}
+
+input[type="date"] {
+    margin-top: 20px;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 69%;
+    margin-bottom: 18px;
+}
+ #birthdate{
+    font-weight: bold;
+    font-size: large;
+ }
+button {
+    padding: 10px 15px;
+    background-color: #457ce4;
+    color: rgb(246, 246, 252);
+    border: none;
+    border-radius: 4px;
+    cursor: progress;
+    font-size: 16px;
+    box-sizing: content-box;
+    font-weight:bolder
+    
+
+
+}
+.top{
+ background-size: contain;
+ background-repeat: repeat;
+margin-top: 20px;
+width: 100%;
+height: 100px;
+background-image: url(/cartoon.jpeg);
+}
+button:hover {
+    background-color: #f2f7f3;
+    border-radius: 0px 10px 0px 10px;
+    color: #457ce4;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-size: larger;
+     font-weight: bolder ;
+}
+
+
+#html-spinner,#html-spinner1{
+    
+    width:60px;
+    height:60px;
+    border:10px solid #c50d0d;
+    border-top:10px solid rgb(18, 194, 56);
+    border-radius:50%;
+    border-bottom: 10px solid black;
+    border-left: 10px solid rgb(146, 180, 54);
+    border-left: 10px solid rgb(116, 56, 151);
+    margin-top: 140px;
+    
+  }
+  
+  #html-spinner,#html-spinner1{
+    
+    -webkit-transition-duration: 1.2s;
+    transition-property: transform;
+    animation-name: rotate; 
+    animation-duration: 1.2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @-webkit-keyframes rotate {
+      from {-webkit-transform: rotate(0deg);}
+      to {-webkit-transform: rotate(360deg);}
+  }
+  
+  @-moz-keyframes rotate {
+      from {-moz-transform: rotate(0deg);}
+      to {-moz-transform: rotate(360deg);}
+  }
+  
+  @keyframes rotate {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+  }
+  
+  
+  #html-spinner1{
+    margin-left: 79%;
+    top:127px;
+    position: absolute;
+  }
+  
+  #html-spinner{
+    position:absolute;
+    left: 25%;
+    margin-left:-24px;
+    
+  }
+  
+ 
+  
+  
+ 
